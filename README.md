@@ -32,19 +32,15 @@ Adding a new LLM that supports the hugging face APIs is not difficult, just modi
 
 ## Installation
 1. Clone or download this repository.
-2. Install the python libraries listed under dependencies.
+2. Run `pip install .` to install the `llm_processes` package and all dependencies.
 
 ## Running the code
-* Change directory to the root directory of this repo.
-* On linux run:
-  * ```export PYTHONPATH=.```
-* On Windows run:
-  * ```set PYTHONPATH=.```
 
-The main script is ```run_llm_process.py``` which supports many options that are defined in ```parse_args.py```.
+Installing the `llm_processes` package will automatically install the `llm_process` command. You can
+view its arguments by running `llm_process --help`.
 
-From the root directory of the repo, run:
-```python run_llm_process.py --llm_type <LLM Type> [additional options]```
+Use the command as:
+```llm_process --llm_type <LLM Type> [additional options]```
 
 Common options:
 
@@ -117,7 +113,7 @@ From the root directory of the repo, run:
 ### Conditioning LLMPs on Textual Information
 #### Scenario-conditional Predictions 
 From the root directory of the repo, run:
-```python run_llm_process.py --llm_type <LLM Type> --data_path ./data/scenario/scenario_data_2_points.pkl --prefix <prompt to try> --autoregressive True --plot_trajectories 5 --forecast True```
+```llm_process --llm_type <LLM Type> --data_path ./data/scenario/scenario_data_2_points.pkl --prefix <prompt to try> --autoregressive True --plot_trajectories 5 --forecast True```
 
 #### Labelling Features Using Text
 From the root directory of the repo, run:
