@@ -71,8 +71,8 @@ def init_option_parser():
     return parser 
 
 
-def parse_command_line():
+def parse_command_line(args=None):
     parser = init_option_parser()
-    args = parser.parse_args()
+    args = parser.parse_args(args=args)
     print(args, flush=True)
     return args
