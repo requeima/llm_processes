@@ -2,11 +2,13 @@ import optuna
 import pickle
 import os
 import numpy as np
-from experiments.classics import function_map
-from run_llm_process import run_llm_process
-from hf_api import get_model_and_tokenizer, llm_map
-from parse_args import init_option_parser
+
 from jsonargparse import ArgumentParser
+from llm_processes.run_llm_process import run_llm_process
+from llm_processes.hf_api import get_model_and_tokenizer, llm_map
+from llm_processes.parse_args import init_option_parser
+
+from experiments.classics import function_map
 
 
 def main():
