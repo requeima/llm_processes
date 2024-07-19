@@ -3,10 +3,9 @@ import os
 import pickle
 import numpy as np
 from tqdm import tqdm
-from helpers import construct_prompts, process_generated_results
-from hf_api import hf_generate_batch, hf_generate
-from helpers import get_num_from_gen
 
+from .helpers import construct_prompts, get_num_from_gen, process_generated_results
+from .hf_api import hf_generate_batch, hf_generate
 
 def sample(args, tokenizer, model, results):   
     with torch.no_grad():

@@ -1,8 +1,10 @@
 import os
-from run_llm_process import run_llm_process
-from hf_api import get_model_and_tokenizer, llm_map
-from parse_args import init_option_parser
+
 from jsonargparse import ArgumentParser
+from llm_processes.run_llm_process import run_llm_process
+from llm_processes.hf_api import get_model_and_tokenizer, llm_map
+from llm_processes.parse_args import init_option_parser
+
 
 gen_length = 7
 

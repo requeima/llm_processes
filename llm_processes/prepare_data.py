@@ -1,6 +1,8 @@
 import pickle
 import numpy as np
-from helpers import scale_y, sort_test_by_distance_from_train, get_dimension, sequential_sort, randomize
+
+
+from .helpers import scale_y, sort_test_by_distance_from_train, get_dimension, sequential_sort, randomize
 
 
 def prepare_data(args):

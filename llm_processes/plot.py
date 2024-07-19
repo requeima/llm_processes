@@ -3,7 +3,8 @@ import numpy as np
 import os
 from PIL import Image
 import math
-from helpers import _map_to_ordinal
+
+from .helpers import _map_to_ordinal
 
 COLORS = ['tab:orange', 'tab:red', 'tab:purple', 'tab:brown',
           'tab:pink', 'tab:gray', 'tab:olive', 'tab:cyan']

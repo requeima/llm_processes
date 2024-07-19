@@ -4,9 +4,11 @@ import numpy as np
 import pickle
 import math
 import os
+
 from functools import partial
-from helpers import construct_prompts, floats_to_str, my_removesuffix
 from tqdm import tqdm
+
+from .helpers import construct_prompts, floats_to_str, my_removesuffix
 
 
 def _get_ranges(decode_fn, enc_full_text, text_blocks):

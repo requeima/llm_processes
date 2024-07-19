@@ -1,11 +1,13 @@
 import numpy as np
 import os
-from plot import plot_samples, plot_images, plot_heatmap
-from hf_api import get_model_and_tokenizer
-from parse_args import parse_command_line
-from compute_nll import compute_nll
-from sample import sample
-from prepare_data import prepare_data
+
+
+from .plot import plot_samples, plot_images, plot_heatmap
+from .hf_api import get_model_and_tokenizer
+from .parse_args import parse_command_line
+from .compute_nll import compute_nll
+from .sample import sample
+from .prepare_data import prepare_data
 
 
 def run_llm_process(args, model, tokenizer):
@@ -40,7 +42,3 @@ def main():
     model, tokenizer = get_model_and_tokenizer(args.llm_path, args.llm_type)
 
     run_llm_process(args=args, model=model, tokenizer=tokenizer)
-
-
-if __name__ == '__main__':
-    main()
