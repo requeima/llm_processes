@@ -28,7 +28,7 @@ LLMs:
 | mixtral-8x7B | https://huggingface.co/mistralai/Mixtral-8x7B-v0.1 | 24                    |
 | mixtral-8x7B-instruct | https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1 | 160                   |
 
-Adding a new LLM that supports the hugging face APIs is not difficult, just modify ```hf_ap.py```.
+Adding a new LLM that supports the hugging face APIs is not difficult, just modify ```hf_api.py```.
 
 ## Installation
 1. Clone or download this repository.
