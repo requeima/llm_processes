@@ -25,7 +25,7 @@ LLMs:
 | llama-2-70B | https://huggingface.co/meta-llama/Llama-2-70b | 160                   |
 | llama-3-8B | https://huggingface.co/meta-llama/Meta-Llama-3-8B | 24                    |
 | llama-3-70B | https://huggingface.co/meta-llama/Meta-Llama-3-70B | 160                   |
-| mixtral-8x7B | https://huggingface.co/mistralai/Mixtral-8x7B-v0.1 | 24                    |
+| mixtral-8x7B | https://huggingface.co/mistralai/Mixtral-8x7B-v0.1 | 160                    |
 | mixtral-8x7B-instruct | https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1 | 160                   |
 
 Adding a new LLM that supports the hugging face APIs is not difficult, just modify ```hf_api.py```.
