@@ -132,10 +132,15 @@ To ask questions or report issues, please open an issue on the issues tracker.
 ## Citation
 If you use this code, please cite our paper:
 ```
-@misc{requeima2024llm,
-      title={LLM Processes: Numerical Predictive Distributions Conditioned on Natural Language}, 
-      author={James Requeima and John Bronskill and Dami Choi and Richard E. Turner and David Duvenaud},
-      journal={arXiv preprint arXiv:2405.12856},
-      year={2024},
+@inproceedings{requeima2024llm,
+ author = {Requeima, James and Bronskill, John and Choi, Dami and Turner, Richard E and Duvenaud, David},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
+ pages = {109609--109671},
+ publisher = {Curran Associates, Inc.},
+ title = {LLM Processes: Numerical Predictive Distributions Conditioned on Natural Language},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/c5ec22711f3a4a2f4a0a8ffd92167190-Paper-Conference.pdf},
+ volume = {37},
+ year = {2024}
 }
 ```
