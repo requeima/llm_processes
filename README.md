@@ -144,3 +144,6 @@ If you use this code, please cite our paper:
  year = {2024}
 }
 ```
+
+## See also
+We have recently extended LLM Processes to tabular data in our paper [JoLT: Joint Probabilistic Predictions on Tabular Data Using LLMs](https://arxiv.org/pdf/2502.11877).
