@@ -18,6 +18,7 @@ matplotlib = ">=3.9.0"
 
 [tool.poetry.optional-dependencies]
 optuna = ">=3.6.1"
+gpytorch = ">=1.14"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2"

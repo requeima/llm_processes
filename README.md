@@ -13,6 +13,7 @@ This code requires the following:
 * jsonargparse 4.28.0 or greater
 * matplotlib 3.9.0 or greater
 * optuna 3.6.1 or greater (only needed if you intend to run the black-box optimization experiments)
+* gpytorch 1.14 or greater (only if you intend to run the Gaussian Process code)
 
 ## LLM Support and GPU Requirements
 We support a variety of LLMs through the Hugging Face transformer APIs. The code currently supports the following
